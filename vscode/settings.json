@@ -1,0 +1,30 @@
+{
+    "codegeex.enable": true,
+    "codegeex.max_suggestions": 5,
+    "codegeex.inline_suggestion.enable": true,
+    "codegeex.inline_suggestion.triggerCharacters": [
+        ".", "(", ")", "[", "]", "{", "}", ":", "=", ">", "<", "+", "-", "*", "/", "#", "\"", "'"
+    ],
+    "codegeex.comment_trigger.enable": true,
+    "codegeex.comment_trigger.pattern": "# ggx:",
+    "codegeex.explain.enable": true,
+    "codegeex.translate.enable": true,
+    "codegeex.translate.targetLanguage": "Python",
+    "editor.inlineSuggest.enabled": true,
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    "editor.suggestSelection": "first",
+    "editor.tabCompletion": "on",
+    "editor.acceptSuggestionOnEnter": "smart",
+    "editor.suggestOnTriggerCharacters": true,
+    "editor.wordBasedSuggestions": true,
+    "editor.formatOnType": true,
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.snippetSuggestions": "top"
+}

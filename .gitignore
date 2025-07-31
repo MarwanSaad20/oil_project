@@ -1,0 +1,15 @@
+# محتوى افتراضي لملف .gitignore
+venv/
+__pycache__/
+*.pyc
+data/raw/*
+data/processed/*
+data/predictions/*
+data/visuals/*
+logs/*
+*.log
+.envdata/cache/*
+src/dashboard/templates/*
+data/cache/*
+src/dashboard/templates/*
+tests/coverage/*
